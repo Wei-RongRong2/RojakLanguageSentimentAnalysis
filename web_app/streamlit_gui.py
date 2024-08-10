@@ -2,12 +2,13 @@ import streamlit as st
 import tensorflow as tf
 import pickle
 from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import load_model
 from PIL import Image
 
 @st.cache(allow_output_mutation=True)
 def load_models():
     # Load models without compiling them
-    model_eval = tf.keras.models.load_model('web_app/final_model_load/final_sentiment_model.h5', compile=False)
+    model_eval = load_model('web_app/final_model_load/final_sentiment_model.h5', compile=False)
     return model_eval
 
 # Load the model and tokenizer/label_encoder only once and reuse them

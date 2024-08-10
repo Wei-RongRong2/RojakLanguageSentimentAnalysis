@@ -1,4 +1,4 @@
-tensorflow
-keras-preprocessing
+tensorflow>=2.10,<3.0
 streamlit
 Pillow
+keras-preprocessing

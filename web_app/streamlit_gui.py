@@ -8,11 +8,11 @@ from PIL import Image
 model = load_model('final_model_load/final_sentiment_model.h5')
 
 # Load the tokenizer
-with open('final_model_load/tokenizer.pkl', 'rb') as file:
+with open('./final_model_load/tokenizer.pkl', 'rb') as file:
     tokenizer = pickle.load(file)
 
 # Load the label encoder
-with open('final_model_load/label_encoder.pkl', 'rb') as file:
+with open('./final_model_load/label_encoder.pkl', 'rb') as file:
     label_encoder = pickle.load(file)
 
 def predict(text):

@@ -1,12 +1,11 @@
 import streamlit as st
-from keras.models import load_model
+import tensorflow as tf
 import pickle
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from PIL import Image
 
-
 # Load the saved model
-model = load_model('web_app/final_model_load/final_sentiment_model.h5')
+model = tf.keras.models.load_model('web_app/final_model_load/final_sentiment_model.h5')
 
 # Load the tokenizer
 with open('web_app/final_model_load/tokenizer.pkl', 'rb') as file:

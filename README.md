@@ -126,7 +126,7 @@ This project was developed in collaboration with [naruto sun](https://github.com
 
 This project is part of an academic course and is intended for educational purposes only. It may contain references to copyrighted materials, and the use of such materials is strictly for academic use. Please consult your instructor or institution for guidance on sharing or distributing this work.
 
-For more details, see the [LICENSE](./LICENSE.txt) file.
+For more details, see the [LICENSE](./LICENSE) file.
 
 ## Contact
 

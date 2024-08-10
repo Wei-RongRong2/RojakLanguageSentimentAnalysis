@@ -5,7 +5,6 @@ This is a machine learning project focused on analysing and classifying sentimen
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Dashboard](#dashboard)
 - [Methodology](#methodology)
 - [Results](#results)
 - [Contributing](#contributing)

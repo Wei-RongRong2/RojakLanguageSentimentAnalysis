@@ -1,4 +1,4 @@
-tensorflow==2.14.1
-keras==2.14.0
-streamlit==1.13.0
-Pillow==9.0.1
+tensorflow>=2.10.0,<3.0
+keras
+streamlit
+Pillow

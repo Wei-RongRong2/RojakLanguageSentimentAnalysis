@@ -1,19 +1,19 @@
 import streamlit as st
 from keras.models import load_model
 import pickle
-from keras_preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 from PIL import Image
 
 
 # Load the saved model
-model = load_model('web_app/final_model_load/final_sentiment_model.h5')
+model = load_model('final_model_load/final_sentiment_model.h5')
 
 # Load the tokenizer
-with open('web_app/final_model_load/tokenizer.pkl', 'rb') as file:
+with open('final_model_load/tokenizer.pkl', 'rb') as file:
     tokenizer = pickle.load(file)
 
 # Load the label encoder
-with open('web_app/final_model_load/label_encoder.pkl', 'rb') as file:
+with open('final_model_load/label_encoder.pkl', 'rb') as file:
     label_encoder = pickle.load(file)
 
 def predict(text):
@@ -27,11 +27,11 @@ def predict(text):
 st.title("Rojak Language Sentiment Analysis")
 
 # Load images
-img_positive = Image.open("web_app/emoji_face/positive.png")
-img_negative = Image.open("web_app/emoji_face/negative.png")
-img_neutral = Image.open("web_app/emoji_face/neutral.png")
-img_blue = Image.open("web_app/emoji_face/BadSmiley.png")
-img_blueblue = Image.open("web_app/emoji_face/blue.png")
+img_positive = Image.open("emoji_face/positive.png")
+img_negative = Image.open("emoji_face/negative.png")
+img_neutral = Image.open("emoji_face/neutral.png")
+img_blue = Image.open("emoji_face/BadSmiley.png")
+img_blueblue = Image.open("emoji_face/blue.png")
 
 input_text = st.text_area("Enter text (at least 5 words):", height=200)
 

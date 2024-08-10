@@ -138,5 +138,5 @@ For any inquiries, you can also reach out to [naruto sun](https://github.com/lim
 - **Reddit Dataset:** [Reddit API](https://www.reddit.com/dev/api/)
 - **Twitter Rojak Dataset:** [Hugging Face - Mesolitica](https://huggingface.co/mesolitica)
 - **Natural Language Processing:** [Malaya Library Documentation](https://malaya.readthedocs.io/en/stable/)
-- **Machine Learning Algorithms:** Scikit-Learn Documentation
+- **Machine Learning Algorithms:** [Scikit-Learn Documentation](https://scikit-learn.org/stable/)
 - **Evaluation Metrics:** Accuracy, Precision, Recall, F1 Score

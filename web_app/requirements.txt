@@ -1,4 +1,5 @@
-tensorflow-cpu==2.10.0
+tensorflow==2.14.0
+keras==2.10.0
 Pillow
 Flask==2.0.2
 gunicorn==20.1.0

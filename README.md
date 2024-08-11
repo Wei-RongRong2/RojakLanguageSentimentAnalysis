@@ -85,7 +85,7 @@ To run the web application locally:
 
 This will start the web application locally, and you can access it by navigating to `http://127.0.0.1:5000` in your web browser.
 
-The web application is also deployed on Render, where it can be accessed online.
+The web application is also deployed on Render and can be accessed online at [Malaysian Rojak Language Sentiment Analysis](https://malaysian-rojak-language-sentiment.onrender.com/).
 
 ## GUI Application
 

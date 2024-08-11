@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the contents of the flask_app folder into the container at /app
 COPY . /app
 
-# Install any necessary dependencies specified in requirements.txt
+# Install any necessary dependencies specified in requirements.txt within flask_app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose the port that the Flask app runs on

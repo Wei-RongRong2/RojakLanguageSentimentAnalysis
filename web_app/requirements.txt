@@ -1,4 +1,4 @@
-tensorflow==2.14.0
+tensorflow==2.10.1
 keras==2.10.0
 Pillow
 Flask==2.0.2

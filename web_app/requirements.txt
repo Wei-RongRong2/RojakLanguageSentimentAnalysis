@@ -3,3 +3,4 @@ Pillow
 Flask==3.0.3
 gunicorn==20.1.0
 werkzeug==3.0.3
+scikit-learn==1.3.2

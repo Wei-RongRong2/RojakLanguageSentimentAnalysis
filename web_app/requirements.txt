@@ -1,6 +1,5 @@
-tensorflow==2.16.0rc0
+tensorflow-cpu==2.16.0rc0
 keras
-streamlit
 Pillow
 Flask==2.0.2
 gunicorn==20.1.0

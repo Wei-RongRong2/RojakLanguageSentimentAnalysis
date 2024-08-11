@@ -5,6 +5,8 @@ This is a machine learning project focused on analysing and classifying sentimen
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Web Application](#web-application)
+- [GUI Application](#gui-application)
 - [Methodology](#methodology)
 - [Results](#results)
 - [Contributing](#contributing)
@@ -55,6 +57,54 @@ To run the clustering analysis, follow these steps:
 4. In the Jupyter Notebook interface, open the `RojakLanguageSentimentAnalysis.ipynb` file.
 
 5. Run the cells in the notebook to execute the clustering analysis.
+
+## Web Application
+
+The `web_app` folder contains the code for the website development. This includes:
+
+- **app.py**: The Flask application used to serve the web application.
+- **templates/**: Contains the HTML, CSS, and JavaScript files that define the front-end of the web application.
+- **static/**: Contains static assets such as images.
+
+### Running the Web Application
+
+To run the web application locally:
+
+1. Navigate to the `web_app` directory:
+    ```bash
+    cd web_app
+    ```
+2. Install the required Python packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Run the Flask application:
+    ```bash
+    python app.py
+    ```
+
+This will start the web application locally, and you can access it by navigating to `http://127.0.0.1:5000` in your web browser.
+
+The web application is also deployed on Render, where it can be accessed online.
+
+## GUI Application
+
+In addition to the web application, you can also run a graphical user interface (GUI) application:
+
+1. Navigate to the `web_app` directory:
+    ```bash
+    cd web_app
+    ```
+2. Install `tkinter` if it's not already installed:
+    ```bash
+    pip install tk
+    ```
+3. Run the GUI application:
+    ```bash
+    python GUI_model_deployment.py
+    ```
+
+This will launch a desktop application using Tkinter, providing an interface to make predictions.
 
 ## Methodology
 

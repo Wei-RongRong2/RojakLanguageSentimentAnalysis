@@ -1,4 +1,6 @@
-tensorflow==2.10.1
+tensorflow==2.12.0rc0
+tensorflow-text==2.10.0
+tensorflow-hub==0.15.0
 keras==2.10.0
 Pillow
 Flask==2.0.2
